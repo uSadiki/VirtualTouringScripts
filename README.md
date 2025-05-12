@@ -1,19 +1,18 @@
 # VirtualTouringScripts
 
-This repository contains selected C# scripts from the Unity-based VR application developed as part of the master’s thesis project _"An Empirical Study of Remote Property Exploration in Virtual Reality Environments"_.
+This repository contains the full set of C# scripts used in the Unity-based VR application developed as part of the master's thesis _"An Empirical Study of Remote Property Exploration in Virtual Reality Environments"_.
 
-The scripts were written for a virtual reality prototype built with Unity and deployed on the Meta Quest 3 headset. The goal of the application was to explore the potential of VR as a tool for remote interior evaluation and spatial decision-making.
+## Purpose
 
-## About the Code
+These scripts were written to support the core functionality of the VR application, including:
 
-These scripts cover core functionality such as:
+- **Menu management** for spawning and deleting furniture
+- Handling the **Add Menu** and **Delete Menu**
+- Managing **button behavior** and interactions
+- Controlling **object selection, highlighting, and UI flow**
+- Basic **user interaction logic** within the VR environment
 
-- Object interaction and manipulation
-- Furniture spawning and deletion
-- Interaction design trade-offs (e.g., grab vs. gravity)
-- Simplified UI control and user feedback collection
-
-They reflect an iterative, development-focused approach to building an interactive VR environment within Unity.
+The code is designed to work within Unity using the XR Interaction Toolkit and was developed for deployment on the Meta Quest platform.
 
 ## License
 
@@ -21,4 +20,4 @@ This code is shared for academic and illustrative purposes. You are welcome to e
 
 ---
 
-Developed as part of a Master’s thesis in Informatics at the University of Oslo.
+Developed as part of a Master's thesis in Informatics at the University of Oslo.
